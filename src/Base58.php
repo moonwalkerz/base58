@@ -1,6 +1,5 @@
 <?php
 namespace MoonWalkerz\Base58;
-
 /*
  * Class Base58
  * @package MoonWalkerz\Base58

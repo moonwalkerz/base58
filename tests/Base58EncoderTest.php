@@ -6,7 +6,6 @@ use PHPUnit\Framework\TestCase;
 
 class Base58EncoderTest extends TestCase
 {
-
  /**
      * Test encoding and decoding a string.
      */
