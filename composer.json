@@ -1,0 +1,32 @@
+{
+    "name": "moonwalkerz/base58",
+    "description": "A PHP library for encoding and decoding Base58 strings and binary data.",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.0",
+    "authors": [
+        {
+            "name": "Alain Martini",
+            "email": "webmaster@inalto.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "MoonWalkerz\\Base58\\": "src/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit tests/"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.5"
+    }
+}
